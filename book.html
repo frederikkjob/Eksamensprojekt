@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+  <header>
+        <!--Flexcontainer til at orginasere header-->
+        <div class="flexcontainer">
+          <a href="index.html">
+            <img src="images/memphismansionlogo.png" alt="logo" height="150">
+          </a>
+          <!--dropdown til menu-->
+          <nav>
+            <div class="dropdown">
+              <a href="#">Vores Fester</a>
+              <div class="dropdown-content">
+                <a href="konkurrence.html">konkurence</a>
+                <a href="#">Fester</a>
+              </div>
+            </div>
+    
+    
+            <div class="dropdown">
+              <a href="#">Booking</a>
+              <div class="dropdown-content">
+                <a href="book.html">Arrangementer</a>
+              </div>
+            </div>
+            <a href="#">Information</a>
+            <a href="#">Om os</a>
+          </nav>
+
+          <!--ikoner til brugerprofil og søgning-->
+          <div id="icon">
+            <img src="images/elvisikon.png" alt="">
+            <img src="images/sogeikon.png" alt="">
+          </div>
+    
+        </div>
+    
+        <!--html til burger menu-->
+        <nav id="burger">
+          <div class="navbar">
+            <div class="container nav-container">
+              <input class="checkbox" type="checkbox"/>
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+              <div>
+                    <a class="logo-ref" href="Index.html">
+                  <img class="logo" src="Images/Memphismansionlogo.png" alt="logo"/>
+                </a>
+              </div>
+              <div class="menu-items">
+                <a href="book.html">Booking</a>
+                <a href="konkurrence.html">konkurrence</a>
+                <a href="#">Fester</a>
+                <a href="#">Information</a>
+                <a href="#">Om Os</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      
+  </header>
+
+  <!--sektion med billede og indhold til booking site-->
+  <Section class="book">
+    <img src="images/ungemennesker.png" alt="bookbillede">
+
+      <h1>booking af arrangement</h1>
+
+        <h2>
+          Memphis Mansion er stolte over vores diner, Highway 51, som servere ægte Amerikans mad, samt et stort udvalg af drikkevare. 
+          Hvilket vi stiller til rådighed, til alle vores Fester og Arrangementer. Vi holder 245 fester om året og kan få alt til at ske. 
+          <br>
+          <br>
+            Her ved Memphis Mansion, bestræber vi os efter at skabe den stemning du ønsker, under vores faciliteter.
+            Lige nu sørge vi for at tænke videre på din ide, være med til at skabe kontakt til det underholdning du ønsker dig.
+            <br>
+              For at gøre dit arrangement særligt og i øjnhøjde med dig og dine gæster.
+            <br>
+              Lige nu tilbyder vi 15% rabat på alt mad og drikke hvis du og dine gæster er under 35 år.
+            <br>
+            <br>
+              Så hvis du har en fed ide til din næste hygge aften, med mindeværdige øjeblikke, 
+              så skriv til os og vi vender tilbage med den service du har brug for.
+        </h2>
+         <br><br>
+  </Section>
+
+      <!--Html til booking fælt-->
+      <form action="action_page.php">
+        <div class="formcontainers">
+          <h2>Vi glæder os allerede</h2>
+          <p>Udfyldt fælterne nedenunder, så får du svar inden for 24 timer.</p>
+        </div>
+      
+        <div class="formcontainers" style="background-color:white">
+          <input type="text" placeholder="Navn" name="name" required>
+          <input type="text" placeholder="Email addresse" name="mail" required>
+          <textarea placeholder="Fortæl os hvad du ønsker?"></textarea>
+        </div>
+      
+        <div class="formcontainers">
+          <input type="submit" value="Send">
+        </div>
+      </form>
+
+      <!--footer-->
+      <footer>
+        
+          
+          <div>
+            <br>
+            <br>
+            <h6>Kontakt Os</h6>
+            <br>
+            <br>
+            <p>Adresse: Graceland Randers Vej 3, 8960 Randers SØ </p>
+            <br>
+            <p>TLF. Nr: (+45) 86 42 96 96 </p>
+            <br>
+            <p>E-mail: info@memphismansion.dk</p><br>
+            <br>
+            <br>
+          </div>
+      
+          <div>
+              <br>
+              <br>
+            <h6>Følg med her</h6>
+            <br>
+            <img src="images/instagramlogo.png" alt="iglogo"> <img src="images/facebooklogo.png" alt="fblogo">
+          </div>
+      </footer>
+
+</body>
+</html>
